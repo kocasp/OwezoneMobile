@@ -8,3 +8,4 @@ This is mobile OFFLINE version of common expenses app OweZone.net
 <img src ="https://raw.githubusercontent.com/kocasp/OwezoneMobile/master/screens.jpg"/>
 
 ## current version: Development (not functional)
+TODO: handle the database (NOT window.localStorage!. JSON stringify is helpfull but force to update entire database)

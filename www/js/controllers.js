@@ -13,7 +13,6 @@ angular.module('starter.controllers', [])
 
 .controller('PersonDetailCtrl', function($scope, $stateParams, People) {
   $scope.person = People.get($stateParams.personId);
-  console.log($stateParams.personId)
 })
 
 .controller('FriendsCtrl', function($scope, Friends) {
