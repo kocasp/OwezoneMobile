@@ -1,0 +1,26 @@
+<ion-view view-title="Overview">
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-divider">Status</div>
+        <a nav-clear class="item item-body item-remove-animate" href="#/tab/people/{{person.id}}" ng-repeat="person in people">
+          {{person.name}}
+          <span class="badge badge-balanced">+800</span>
+        </a>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Suggested settlement:</div>
+      <div class="item item-body">
+        <div>
+          <i class="icon ion-cash"></i>
+<b>Jim Jam Johnes</b> gives <b>400</b> to <b>Ben Sparrow</b>
+        </div>
+      </div>
+      <div class="item item-body">
+        <div>
+          <i class="icon ion-cash"></i>
+<b>Jack Joe</b> gives <b>400</b> to <b>Ben Sparrow</b>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

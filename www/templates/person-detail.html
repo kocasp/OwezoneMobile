@@ -1,0 +1,31 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="{{person.name}}">
+  <ion-content class="padding">
+<div class="list">
+
+  <a class="item" href="#">
+    Train to Paris
+    <p><small>Train to Paris Cost of <b>1200</b> was split into <b>3 people</b> including {{person.name}}</small></p>
+    <span class="badge badge-balanced">paid 1200</span>
+  </a>
+
+  <a class="item" href="#">
+    Train to Paris
+    <p><small>Train to Paris Cost of <b>1200</b> was split into <b>3 people</b> including {{person.name}}</small></p>
+    <span class="badge badge-assertive">charged 400</span>
+  </a>
+
+
+</div>
+<div class="bar bar-balanced">
+  <h1 class="title">Total balance: +800</h1>
+</div>
+<div style="margin-top:70px"><p><small><center>{{person.name}} should collect 800 from others.</center></small></p></div>
+
+  </ion-content>
+</ion-view>
