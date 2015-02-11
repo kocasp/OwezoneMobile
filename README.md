@@ -10,3 +10,14 @@ This is mobile OFFLINE version of common expenses app OweZone.net
 ## current version: Development (not functional)
 TODO: handle the database (NOT window.localStorage!. JSON stringify is helpfull but force to update entire database)
 Cordova SQLitePlugin is a good trace but plugin is not making the window.sqlitePlugin available from services scope so far.
+
+### development notes
+- https://blog.nraboy.com/2014/11/use-sqlite-instead-local-storage-ionic-framework/ provides informations about SQLitePlugin installation process 
+
+- https://github.com/bgoetzmann/ionic-persistence also shows the template of SQLitePlugin AND PersistentJS usage with Ionic. (not investigated yet)
+
+- adb logcat CordovaLog:D *:S lets log and filter cordova console.log into logcat console.
+
+- WEBSql can be a plan B
+
+- TODO: search how to reach variables and functions from Ionic view scope

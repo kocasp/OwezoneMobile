@@ -4,10 +4,6 @@ angular.module('starter.services', [])
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data
-  console.log("faking data")
-  //TODO: why not working?:
-   var db = window.sqlitePlugin.openDatabase({name: "my.db"});
-   //
   var people = [{
     id: 0,
     name: 'Ben Sparrow',
