@@ -9,3 +9,4 @@ This is mobile OFFLINE version of common expenses app OweZone.net
 
 ## current version: Development (not functional)
 TODO: handle the database (NOT window.localStorage!. JSON stringify is helpfull but force to update entire database)
+Cordova SQLitePlugin is a good trace but plugin is not making the window.sqlitePlugin available from services scope so far.
