@@ -7,4 +7,4 @@ This is mobile OFFLINE version of common expenses app OweZone.net
 
 <img src ="https://raw.githubusercontent.com/kocasp/OwezoneMobile/master/screens.jpg"/>
 
-## current version: Development (not functional)
+## current version: Development
